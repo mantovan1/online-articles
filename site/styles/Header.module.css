@@ -1,0 +1,17 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+
+.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  height: 100%;
+  color: white;
+}
