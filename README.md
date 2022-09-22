@@ -17,3 +17,11 @@ Aqui a página em que o admin pode escrever um novo artigo.
 Aqui a página de login.
 
 <img src="online-articles-images/login.png" width="600">
+
+Mobile
+
+<img src="online-articles-images/mobile/ft_1.jpg" width="200">
+
+<img src="online-articles-images/mobile/ft_2.jpg" width="200">
+
+<img src="online-articles-images/mobile/ft_3.jpg" width="200">
