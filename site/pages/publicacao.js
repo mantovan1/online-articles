@@ -50,11 +50,13 @@ export default function Publicacao() {
             })
             .then(response => response.text())
             .then(async data => {
-                console.log(data);
+                if(data.auth == false) {
+                    window.alert('É preciso estar logado para fazer uma publicação');
+                }
             })
     
         } catch(err) {
-            console.log(err)
+            window.alert('É preciso estar logado para fazer uma publicação');
         }
 
     }

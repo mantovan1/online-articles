@@ -1,10 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .news_head {
     display: flex;
 
     align-items: center;
     justify-content: center;
 
-    width: 60%;
+    width: 80%;
 
     margin: 10px;
     padding: 10px;
@@ -20,7 +26,7 @@
 }
 
 .article_column {
-    width: 60%;
+    width: 80%;
 
     margin: 10px;
 }
@@ -63,3 +69,22 @@
     color: gray;
     ;
 }
+
+@media screen and (max-width: 600px) {
+    .news_head {
+        width: 90%;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+    
+    .article_column {
+        width: 90%;
+    }
+
+    .articles_image image {
+        max-width: 150px;
+        max-height: 100;
+    }
+}    

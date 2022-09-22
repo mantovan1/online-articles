@@ -26,6 +26,15 @@ export default function Header() {
         })
     }
 
+    const clear = async () => {
+
+        await localStorage.removeItem('@token');
+        await localStorage.removeItem('@admin');
+
+        window.location.reload(false);
+
+    }
+
     useEffect(() => {
         verifyAdmin();
     })
@@ -36,11 +45,22 @@ export default function Header() {
             
             {isAdmin==true &&
                 
-                <a href="./publicacao"> Artigos </a>
+                <a href="./publicacao"> Publicar Artigo </a>
+                
+            }
+
+            {isAdmin==true &&
+                
+                <a onClick={clear}> Sair </a>
+                
+            }
+
+            {isAdmin==false &&
+                
+                <a href="./login"> Login </a>
                 
             }
             
-            <a href="./login"> Login </a>
         </div>
     )
 }
