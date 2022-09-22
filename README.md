@@ -24,6 +24,7 @@ Aqui a página de login.
 
 <p float="left">
   <img src="online-articles-images/mobile/ft_1.jpg" width="200">
-  <img src="online-articles-images/mobile/ft_2.jpg" width="200">
   <img src="online-articles-images/mobile/ft_3.jpg" width="200">
 </p>
+
+<img src="online-articles-images/mobile/ft_2.jpg" width="200">
