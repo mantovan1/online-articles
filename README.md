@@ -2,6 +2,8 @@
 
 Uma aplicação web em que você pode ler artigos e escrevê-los caso você esteja logado como admin.
 
+## site nos computadores
+
 Aqui a página inicial com os artigos mais recentes.
 
 <img src="online-articles-images/home.png" width="600">
@@ -18,10 +20,10 @@ Aqui a página de login.
 
 <img src="online-articles-images/login.png" width="600">
 
-Mobile
+## site nos dispositivos mobile
 
-<img src="online-articles-images/mobile/ft_1.jpg" width="200">
-
-<img src="online-articles-images/mobile/ft_2.jpg" width="200">
-
-<img src="online-articles-images/mobile/ft_3.jpg" width="200">
+<p float="left">
+  <img src="online-articles-images/mobile/ft_1.jpg" width="200">
+  <img src="online-articles-images/mobile/ft_2.jpg" width="200">
+  <img src="online-articles-images/mobile/ft_3.jpg" width="200">
+</p>
