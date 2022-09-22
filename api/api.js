@@ -80,6 +80,8 @@ app.post('/publish', verificarTokenAdmin, upload.array('images'), async (req, re
 		const paragraphs = req.body.paragraphs;
 		const images = req.files;
 
+		console.log(paragraphs);
+
 		var folder_path = uuid()
 
 		var dir = __dirname + '/uploads/' + folder_path;
@@ -103,7 +105,9 @@ app.post('/publish', verificarTokenAdmin, upload.array('images'), async (req, re
                 		});*/
 
 			}
-        	}	
+        	} else {
+			obj.paragraphs.push(paragraphs);
+		}	
 
 		var json = JSON.stringify(obj);
 
@@ -119,6 +123,11 @@ app.post('/publish', verificarTokenAdmin, upload.array('images'), async (req, re
 					if (err) return console.log(err);
                 		})
             		}
+		} else {
+			fs.writeFile(dir + '/' + a + '.jpeg', images[0].buffer, function (err) {
+                        	if (err) return console.log(err);
+                        })
+
 		}
 
 		await Article.create({
