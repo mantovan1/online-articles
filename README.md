@@ -1,5 +1,10 @@
 # online-articles
 
+Link do Site na AWS:
+http://54.175.102.87:3000/
+
+(Precisa de credenciais para poder publicar um artigo)
+
 Uma aplicação web em que você pode ler artigos e escrevê-los caso você esteja logado como admin.
 
 ## site nos computadores
